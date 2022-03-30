@@ -199,6 +199,7 @@ section{
 }
 .container--project .img--project img{
     width: 300px;
+    height: 155px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
@@ -213,7 +214,7 @@ section{
     border: 1px solid transparent;
 }
 .container--project .button--1{
-    background-color: #393e46;
+    background-color: rgb(88, 166, 255);
     margin-bottom: 10px;
     transition: all ease 0.5s;
     font-size: 15px;
@@ -225,7 +226,8 @@ section{
     transition: all ease 0.5s;
 }
 .container--project .button--1:hover{
-    border:1px solid #4ecca0;
+    border:1px solid rgb(88, 166, 255);
+    background-color: #393e46;
     transition: all ease 0.5s;
 }
 .container--project .button--2:hover{
