@@ -215,10 +215,10 @@ section{
 }
 .container--project .button--1{
     background-color: rgb(88, 166, 255);
-    margin-bottom: 10px;
     transition: all ease 0.5s;
     font-size: 15px;
-    cursor: pointer;
+    cursor: pointer
+
 }
 .container--project .button--2{
     background-color: #e85b48;
