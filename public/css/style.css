@@ -216,9 +216,7 @@ section{
 .container--project .button--1{
     background-color: rgb(88, 166, 255);
     transition: all ease 0.5s;
-    font-size: 15px;
-    cursor: pointer
-
+    border: 1px solid transparent;
 }
 .container--project .button--2{
     background-color: #e85b48;
@@ -294,3 +292,4 @@ footer{
     transform: scale(1.2);
     transition: all ease 0.5s;
 }
+
