@@ -15,3 +15,18 @@ function closeMenu(){
         nav.classList.remove('active');
     }
 }
+
+const text = document.querySelector('#write'); 
+
+function animation(text) {
+    const textArray = text.innerHTML.split('');
+
+    //iniciar vazio
+    text.innerHTML = " ";
+
+    textArray.forEach(function(letter, index){
+        setTimeout(function(){ text.innerHTML += letter },60 * index)
+    })
+}
+
+animation(text)
