@@ -25,7 +25,7 @@ function animation(text) {
     text.innerHTML = " ";
 
     textArray.forEach(function(letter, index){
-        setTimeout(function(){ text.innerHTML += letter },60 * index)
+        setTimeout(function(){ text.innerHTML += letter },80 * index)
     })
 }
 
